@@ -3,10 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54554C461D4B74CF44A9A346 /* Pods_To_do_App_SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 333960D661C0DB4EDEB20915 /* Pods_To_do_App_SwiftUI.framework */; };
+		61B29213A36D1666E86292D3 /* Pods_To_do_App_SwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32BF7E1CB701F2CEF7C32AD8 /* Pods_To_do_App_SwiftUITests.framework */; };
+		907283D1246C36FB005FE11E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 907283D0246C36FB005FE11E /* GoogleService-Info.plist */; };
+		907283D4246C3BD0005FE11E /* TaskRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907283D3246C3BD0005FE11E /* TaskRepository.swift */; };
+		907283D6246C5907005FE11E /* SignInWithApppleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907283D5246C5907005FE11E /* SignInWithApppleButton.swift */; };
+		907283D8246C5968005FE11E /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907283D7246C5968005FE11E /* SignInView.swift */; };
+		907283DB246C5BD4005FE11E /* SignInWithAppleCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907283DA246C5BD4005FE11E /* SignInWithAppleCoordinator.swift */; };
 		90CD34D5246C1E7D0086B00F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CD34D4246C1E7D0086B00F /* AppDelegate.swift */; };
 		90CD34D7246C1E7D0086B00F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CD34D6246C1E7D0086B00F /* SceneDelegate.swift */; };
 		90CD34DA246C1E7D0086B00F /* To_do_App_SwiftUI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 90CD34D8246C1E7D0086B00F /* To_do_App_SwiftUI.xcdatamodeld */; };
@@ -31,6 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1AE9BF5B2A7FE99FD07FA13D /* Pods-To-do-App-SwiftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-To-do-App-SwiftUI.debug.xcconfig"; path = "Target Support Files/Pods-To-do-App-SwiftUI/Pods-To-do-App-SwiftUI.debug.xcconfig"; sourceTree = "<group>"; };
+		32BF7E1CB701F2CEF7C32AD8 /* Pods_To_do_App_SwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_To_do_App_SwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		333960D661C0DB4EDEB20915 /* Pods_To_do_App_SwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_To_do_App_SwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		907283D0246C36FB005FE11E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		907283D3246C3BD0005FE11E /* TaskRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRepository.swift; sourceTree = "<group>"; };
+		907283D5246C5907005FE11E /* SignInWithApppleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithApppleButton.swift; sourceTree = "<group>"; };
+		907283D7246C5968005FE11E /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		907283DA246C5BD4005FE11E /* SignInWithAppleCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleCoordinator.swift; sourceTree = "<group>"; };
+		907283DC246C5EB9005FE11E /* To-do-App-SwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "To-do-App-SwiftUI.entitlements"; sourceTree = "<group>"; };
 		90CD34D1246C1E7D0086B00F /* To-do-App-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "To-do-App-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90CD34D4246C1E7D0086B00F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90CD34D6246C1E7D0086B00F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -46,6 +62,9 @@
 		90CD34FA246C1F640086B00F /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		90CD34FF246C24030086B00F /* TaskCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCellViewModel.swift; sourceTree = "<group>"; };
 		90CD3501246C251B0086B00F /* TaskListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewModel.swift; sourceTree = "<group>"; };
+		A0A7AFC958C9A554F0FDCEA2 /* Pods-To-do-App-SwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-To-do-App-SwiftUI.release.xcconfig"; path = "Target Support Files/Pods-To-do-App-SwiftUI/Pods-To-do-App-SwiftUI.release.xcconfig"; sourceTree = "<group>"; };
+		A263B5196536F2803DE14177 /* Pods-To-do-App-SwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-To-do-App-SwiftUITests.debug.xcconfig"; path = "Target Support Files/Pods-To-do-App-SwiftUITests/Pods-To-do-App-SwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D85D1748B44CE4FCF2EA1C4E /* Pods-To-do-App-SwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-To-do-App-SwiftUITests.release.xcconfig"; path = "Target Support Files/Pods-To-do-App-SwiftUITests/Pods-To-do-App-SwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54554C461D4B74CF44A9A346 /* Pods_To_do_App_SwiftUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,18 +80,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61B29213A36D1666E86292D3 /* Pods_To_do_App_SwiftUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		907283D2246C3BBC005FE11E /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				907283D3246C3BD0005FE11E /* TaskRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		907283D9246C5BC0005FE11E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				907283DA246C5BD4005FE11E /* SignInWithAppleCoordinator.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		90CD34C8246C1E7D0086B00F = {
 			isa = PBXGroup;
 			children = (
 				90CD34D3246C1E7D0086B00F /* To-do-App-SwiftUI */,
 				90CD34ED246C1E810086B00F /* To-do-App-SwiftUITests */,
 				90CD34D2246C1E7D0086B00F /* Products */,
+				C278FE1B98C1CFA11D7D4017 /* Pods */,
+				B84C6874D130DC1DE2B84980 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -87,6 +126,9 @@
 		90CD34D3246C1E7D0086B00F /* To-do-App-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				907283DC246C5EB9005FE11E /* To-do-App-SwiftUI.entitlements */,
+				907283D9246C5BC0005FE11E /* Services */,
+				907283D2246C3BBC005FE11E /* Repositories */,
 				90CD34FE246C23F10086B00F /* ViewModels */,
 				90CD34F9246C1F5C0086B00F /* Model */,
 				90CD34FC246C1FEC0086B00F /* App */,
@@ -94,6 +136,7 @@
 				90CD34DD246C1E810086B00F /* Assets.xcassets */,
 				90CD34E2246C1E810086B00F /* LaunchScreen.storyboard */,
 				90CD34E5246C1E810086B00F /* Info.plist */,
+				907283D0246C36FB005FE11E /* GoogleService-Info.plist */,
 				90CD34D8246C1E7D0086B00F /* To_do_App_SwiftUI.xcdatamodeld */,
 				90CD34DF246C1E810086B00F /* Preview Content */,
 			);
@@ -138,6 +181,8 @@
 			isa = PBXGroup;
 			children = (
 				90CD34DB246C1E7D0086B00F /* TaskListView.swift */,
+				907283D5246C5907005FE11E /* SignInWithApppleButton.swift */,
+				907283D7246C5968005FE11E /* SignInView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -151,6 +196,26 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
+		B84C6874D130DC1DE2B84980 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				333960D661C0DB4EDEB20915 /* Pods_To_do_App_SwiftUI.framework */,
+				32BF7E1CB701F2CEF7C32AD8 /* Pods_To_do_App_SwiftUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C278FE1B98C1CFA11D7D4017 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1AE9BF5B2A7FE99FD07FA13D /* Pods-To-do-App-SwiftUI.debug.xcconfig */,
+				A0A7AFC958C9A554F0FDCEA2 /* Pods-To-do-App-SwiftUI.release.xcconfig */,
+				A263B5196536F2803DE14177 /* Pods-To-do-App-SwiftUITests.debug.xcconfig */,
+				D85D1748B44CE4FCF2EA1C4E /* Pods-To-do-App-SwiftUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -158,9 +223,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90CD34F3246C1E810086B00F /* Build configuration list for PBXNativeTarget "To-do-App-SwiftUI" */;
 			buildPhases = (
+				259EE678DE3A91FD4A6D7697 /* [CP] Check Pods Manifest.lock */,
 				90CD34CD246C1E7D0086B00F /* Sources */,
 				90CD34CE246C1E7D0086B00F /* Frameworks */,
 				90CD34CF246C1E7D0086B00F /* Resources */,
+				852D97FDA64AC9B63F7465CE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -175,6 +242,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90CD34F6246C1E810086B00F /* Build configuration list for PBXNativeTarget "To-do-App-SwiftUITests" */;
 			buildPhases = (
+				4ACFD48F5112E83CDF47D2FB /* [CP] Check Pods Manifest.lock */,
 				90CD34E6246C1E810086B00F /* Sources */,
 				90CD34E7246C1E810086B00F /* Frameworks */,
 				90CD34E8246C1E810086B00F /* Resources */,
@@ -233,6 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90CD34E4246C1E810086B00F /* LaunchScreen.storyboard in Resources */,
+				907283D1246C36FB005FE11E /* GoogleService-Info.plist in Resources */,
 				90CD34E1246C1E810086B00F /* Preview Assets.xcassets in Resources */,
 				90CD34DE246C1E810086B00F /* Assets.xcassets in Resources */,
 			);
@@ -247,6 +316,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		259EE678DE3A91FD4A6D7697 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-To-do-App-SwiftUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4ACFD48F5112E83CDF47D2FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-To-do-App-SwiftUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		852D97FDA64AC9B63F7465CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-To-do-App-SwiftUI/Pods-To-do-App-SwiftUI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-To-do-App-SwiftUI/Pods-To-do-App-SwiftUI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-To-do-App-SwiftUI/Pods-To-do-App-SwiftUI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		90CD34CD246C1E7D0086B00F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -254,9 +387,13 @@
 			files = (
 				90CD3502246C251B0086B00F /* TaskListViewModel.swift in Sources */,
 				90CD34D5246C1E7D0086B00F /* AppDelegate.swift in Sources */,
+				907283D4246C3BD0005FE11E /* TaskRepository.swift in Sources */,
 				90CD34D7246C1E7D0086B00F /* SceneDelegate.swift in Sources */,
+				907283D8246C5968005FE11E /* SignInView.swift in Sources */,
 				90CD34FB246C1F640086B00F /* Task.swift in Sources */,
+				907283DB246C5BD4005FE11E /* SignInWithAppleCoordinator.swift in Sources */,
 				90CD3500246C24030086B00F /* TaskCellViewModel.swift in Sources */,
+				907283D6246C5907005FE11E /* SignInWithApppleButton.swift in Sources */,
 				90CD34DC246C1E7D0086B00F /* TaskListView.swift in Sources */,
 				90CD34DA246C1E7D0086B00F /* To_do_App_SwiftUI.xcdatamodeld in Sources */,
 			);
@@ -408,8 +545,10 @@
 		};
 		90CD34F4246C1E810086B00F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AE9BF5B2A7FE99FD07FA13D /* Pods-To-do-App-SwiftUI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "To-do-App-SwiftUI/To-do-App-SwiftUI.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"To-do-App-SwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = UX2K5XG954;
@@ -428,8 +567,10 @@
 		};
 		90CD34F5246C1E810086B00F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0A7AFC958C9A554F0FDCEA2 /* Pods-To-do-App-SwiftUI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "To-do-App-SwiftUI/To-do-App-SwiftUI.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"To-do-App-SwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = UX2K5XG954;
@@ -448,6 +589,7 @@
 		};
 		90CD34F7246C1E810086B00F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A263B5196536F2803DE14177 /* Pods-To-do-App-SwiftUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -470,6 +612,7 @@
 		};
 		90CD34F8246C1E810086B00F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D85D1748B44CE4FCF2EA1C4E /* Pods-To-do-App-SwiftUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
