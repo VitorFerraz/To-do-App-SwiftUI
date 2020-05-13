@@ -7,9 +7,13 @@
 //
 
 import Foundation
-struct Task: Identifiable {
-    var id: String = UUID().uuidString
-    
+import FirebaseFirestoreSwift
+import FirebaseFirestore
+
+struct Task: Identifiable, Codable {
+    @DocumentID var id: String?
+    @ServerTimestamp var createdTime: Timestamp?
+    var userId: String? 
     var title: String
     var completed: Bool
 }
